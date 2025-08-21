@@ -1,0 +1,19 @@
+
+# export CLAUDE_CODE_MAX_OUTPUT_TOKENS=8192  # Well under the 8192 limit
+# export MAX_THINKING_TOKENS=4096           # Keep thinking tokens low too
+
+export ANTHROPIC_BASE_URL=http://localhost:8082
+export ANTHROPIC_AUTH_TOKEN=some-api-key
+
+unset ANTHROPIC_AUTH_TOKEN
+export ANTHROPIC_AUTH_TOKEN=not-used
+# This value is actually significant, the claude-code-proxy expects it
+export ANTHROPIC_AUTH_TOKEN=ignored-ansi-uses-network-auth
+
+export ANTHROPIC_MODEL="openai/groq-gpt-oss-20b"
+export ANTHROPIC_SMALL_FAST_MODEL="openai/groq-llama-3-8b"
+# export ANTHROPIC_MODEL="openai/groq-gpt-oss-120b"
+# export ANTHROPIC_SMALL_FAST_MODEL="openai/groq-llama-3-8b"
+#Did not work with tool calls
+# export ANTHROPIC_MODEL="openai/groq-meta-llama-4-maverick"
+# export ANTHROPIC_SMALL_FAST_MODEL="openai/groq-meta-llama-4-scout"
