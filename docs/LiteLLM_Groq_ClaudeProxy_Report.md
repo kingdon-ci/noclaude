@@ -41,4 +41,4 @@ LiteLLM is a lightweight, open‑source library that provides a flexible LLM pro
 - Monitor token usage and compare costs with the current Bedrock endpoint.
 - Document findings to inform a formal evaluation report.
 
-*This report references the README of the current NASA GSFC evaluation project, which outlines the experimental nature and non‑commercial use of Claude‑Code‑Proxy.*
+*This report references the README of the current ANSI evaluation project, which outlines the experimental nature and non‑commercial use of Claude‑Code‑Proxy.*
