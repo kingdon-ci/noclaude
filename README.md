@@ -24,21 +24,39 @@ You have been provided access to an OpenAI/AWS Bedrock endpoint for code assista
 ## Setup for Evaluation
 
 # Clone the proxy repository
+
+```
 git clone https://github.com/1rgs/claude-code-proxy.git
 cp claude-code-proxy.env claude-code-proxy/.env
 cd claude-code-proxy
+```
 
 # Run the proxy server (ensure you have uv installed)
+
+```
 uv run uvicorn server:app --host 127.0.0.1 --port 8082 --reload
+```
+
+Note there are several competing claude code proxy implementations, yours may
+have different startup instructions.
 
 # In a new terminal, set up the environment
+
+```
 source vars
+```
 
 # Run Claude Code (for evaluation purposes only)
+
+```
 claude
+```
 
 # When prompted, use the command:
+
+```
 # > Tell me about the scripts in this directory.
+```
 
 ## Important Considerations
 
