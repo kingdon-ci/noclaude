@@ -62,7 +62,7 @@ Cons:
 
 ## Conclusion
 
-Both Claude Code and Continue.dev have their strengths for ANSI GSFC's use case. Continue.dev has the advantage of official support and presumed clearance for ANSI use, making it a safer choice from a compliance perspective. However, Claude Code offers some advanced features and clear usage monitoring that may be beneficial.
+Both Claude Code and Continue.dev have their strengths for ANSI's use case. Continue.dev has the advantage of official support and presumed clearance for ANSI use, making it a safer choice from a compliance perspective. However, Claude Code offers some advanced features and clear usage monitoring that may be beneficial.
 
 The decision between the two may ultimately depend on:
 1. The importance of advanced features and customization
